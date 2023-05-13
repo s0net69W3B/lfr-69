@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: myfont;
+    src: url(fonts/AngelicaMaya.ttf);
+}
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    flex-direction: column;
+    
+    background: #8a23f1;
+}
+#title{
+    font-family: myfont;
+}
+.container{
+    text-align: center;
+    width: 100%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #ff6b81;
+    
+    border-radius: 6px 159px;
+    box-shadow: 10px 10px 20px;
+}
+
+.form-box{
+    text-align: center;
+    width: 100%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #ff6b81;
+    padding: 58px;
+    border-radius: 6px 159px;
+    box-shadow: 10px 10px 20px;
+}
+.input-group{
+    position: relative;
+    background: #8a23f1;
+    margin: auto;
+    width: 100%;
+    padding: 15px;
+    border-radius: 6px 77px;
+    display: relative;
+    max-height: max-content;
+    max-width: max-content;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 10px 10px 20px;
+
+}
+.input-field{
+    text-align: center;
+    background: lightblue transparent;
+    border-radius: 6px 62px;
+    box-shadow: 5px 5px 30px;
+    
+
+}
+.btn-field button{
+    background: #ff6b81;
+	color: rgb(0, 0, 0);
+	border-style: outset;
+	border-color: #6bc4ff;
+    border-radius: 15px;
+	height: 50px;
+	width: 100px;
+	font: bold15px arial,sans-serif;
+	text-shadow: none;
+}
+.btn-field p{
+    color: #000000;
+    padding-top: 5px;
+    font-family: myfont;
+    font-size: 21px;
+    text-align: center;
+}
+#myFile{
+    position: center;
+    padding-left: 50px;
+}
+.btn-field span:hover{
+    color: #8a23f1;
+}
+input[type="text"] {
+    background: #8a23f1;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    transition: ease .5s;
+    cursor: pointer;
+    box-shadow: 10px 10px 25px;
+    margin: 10px;
+}
+#country {
+    background: #8a23f1;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    transition: ease .5s;
+    cursor: pointer;
+    box-shadow: 10px 10px 25px;
+    margin: 10px;
+}
+input[type="tel"] {
+    background: #8a23f1;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    transition: ease .5s;
+    cursor: pointer;
+    box-shadow: 10px 10px 25px;
+    margin: 10px;
+}
+input[type="radio"] {
+    background: #8a23f1;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    transition: ease .5s;
+    cursor: pointer;
+    box-shadow: 10px 10px 25px;
+    margin: 10px;
+}
+input[type="checkbox"] {
+    background: #8a23f1;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    transition: ease .5s;
+    cursor: pointer;
+    box-shadow: 10px 10px 25px;
+    margin: 10px;
+}
+input[type="file"] {
+    background: #8a23f1;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    transition: ease .5s;
+    cursor: pointer;
+    box-shadow: 10px 10px 25px;
+    margin: 10px;
+}
+input[type="number"] {
+    background: #8a23f1;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    transition: ease .5s;
+    cursor: pointer;
+    box-shadow: 10px 10px 25px;
+    margin: 10px;
+}
+::placeholder{
+    color: black;
+}
+#alltext{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.backbtn-field span{
+    color: black;
+    background-color: #ff6b81;
+    padding: 2px 2px 2px 2px;
+    margin: -3px;
+    border-radius: 2px;
+    box-shadow: 5px 5px 15px;
+    
+}
+.backbtn-field{
+    padding: 20px;
+}

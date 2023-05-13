@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: myfont;
+    src: url(../fonts/AngelicaMaya.ttf);
+}
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    flex-direction: column;
+    
+    background: #8a23f1;
+}
+.container{
+    text-align: center;
+    width: 100%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #ff6b81;
+    padding: 100px;
+    border-radius: 6px 159px;
+    box-shadow: 10px 10px 20px;
+}
+.header-image img{
+    margin: 15px;
+    box-shadow: 10px 10px 20px ;
+    border-radius: 119px 126px;
+    
+}
+.header-container h1 {
+    text-align: center;
+    font-family: myfont;
+    max-width: 100%;
+    max-height: 100%;
+}
+.header-container span{
+    color: #8a23f1;
+}
+.header-text p{
+    padding: 10px;
+    
+}
+#logo{
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 2%;
+}
+.input-field input{
+    padding: 6px;
+    background-color: rgba(136, 9, 240, 0.842);
+    width: 100%;
+    box-shadow: 10px 10px 25px;
+    border-radius: 5px;
+ 
+}
+input[type="text"] {
+    background: #8a23f1;
+    
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+    transition: ease .5s;
+    cursor: pointer;
+    box-shadow: 10px 10px 25px;
+    margin: 10px;
+}
+::placeholder{
+    color: black;
+}
+button[type="submit"] {
+    background: #8a23f1;
+    
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+    transition: ease .5s;
+    cursor: pointer;
+    box-shadow: 10px 10px 25px;
+    margin: 10px;
+    text-align: center;
+}
+.btn-field a {
+    text-decoration: none;
+    color: black;
+}
+.btn-field a:hover{
+    color: #ffffff;
+}
+.backbtn-field span{
+    color: black;
+    background-color: #ff6b81;
+    padding: 2px 2px 2px 2px;
+    margin: -3px;
+    border-radius: 2px;
+    box-shadow: 5px 5px 15px;
+    
+}
+.backbtn-field{
+    padding: 20px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration From</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/89521b1bcf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1 id="title">Registration Form</h1>
+            <form action="#" method="post" target="_blank">
+                <div class="input-group">
+                    <div class="input-field">
+                        <label for="fname" id="alltext">First Name</label><br>
+                        <i class="fa-solid fa-file-signature fa-fade"></i>
+                        <input type="text" placeholder="Type Your First Name">
+                    </div>
+                    <div class="input-field">
+                        <label for="lname" id="alltext">Last Name</label><br>
+                        <i class="fa-solid fa-file-signature fa-fade"></i>
+                        <input type="text" placeholder="Type Your Last Name">
+                    </div>
+                    <div class="input-field">
+                        <label for="Country" id="alltext" >Country/Region</label><br>
+                        <i class="fa-solid fa-earth-americas fa-fade"></i>
+                        <select name="country" id="country">
+                            <option value="sc" selected>Select Country</option>
+                            <option value="Bangladesh">Bangladesh</option>
+                            <option value="India">India</option>
+                            <option value="Pakistan">Pakistan</option>
+                            <option value="Turkey">Turkey</option>
+                            <option value="Japan">Japan</option>
+                            <option value="Chaina">Chaina</option>
+                        </select>
+                    </div>
+                    <div class="input-field">
+                        <label for="address" id="alltext">Present Address</label><br>
+                        <i class="fa-solid fa-location-dot fa-fade"></i>
+                        <input type="text" placeholder="Type Your Present Address">
+                    </div>
+                    <div class="input-field">
+                        <label for="address" id="alltext">Permanent Address</label><br>
+                        <i class="fa-solid fa-location-dot fa-fade"></i>
+                        <input type="text" placeholder="Type Your Permanent Address">
+                    </div>
+                    <div class="input-field">
+                        <label for="phone" id="alltext">Enter a phone number</label><br>
+                        <i class="fa-solid fa-phone fa-fade"></i>
+                        <input type="tel" id="phone" name="phone" placeholder="+(880) 1234-658235" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                    </div>
+                    <div class="input-field">
+                        <p id="alltext">What Is Your Gender?</p>
+                        <i class="fa-solid fa-person fa-fade"></i>
+                        <input type="radio" name="gender" value="male"> Male
+                        <i class="fa-solid fa-person-dress fa-fade"></i>
+                        <input type="radio" name="gender" value="female"> Female
+                        
+                            
+                            
+                    </div>
+                    <div class="input-field">
+                        <p id="alltext">Have You Finished Your Studies?</p>
+                        <i class="fa-solid fa-circle-check fa-fade"></i>
+                        <input type="checkbox" name="yes" value="yes"> Yes
+                        <i class="fa-solid fa-circle-xmark fa-fade"></i>
+                        <input type="checkbox" name="no" value="no"> No
+
+                    </div>
+                    <div class="input-field">
+                        <label for="number" id="alltext" >Enter Your National ID Number</label><br>
+                        <i class="fa-solid fa-id-card fa-fade"></i>
+                        <input type="number" placeholder="Type Your National Id Number">
+                    </div>
+                    <div class="input-field" >
+                        <label for="file" id="alltext">Upload Your National Id</label>
+                        
+                        <input type="file" id="myFile" name="filename">
+                    </div>
+                    <div class="btn-field">
+                       <p>Enter The Submit</p>
+                       
+                        <button type="button"><span>Submit</span></button>
+                        <button type="button"><span>Reset</span></button>
+                    </div>
+                    <div class="backbtn-field">
+                        <button type="button" onclick="window.history.back()" ><span>Back</span></button>
+                        
+    
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
